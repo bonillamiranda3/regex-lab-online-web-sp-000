@@ -17,3 +17,10 @@ end
 def valid_phone_number?(phone)
   phone.scan(/\d/).count == 10
 end
+
+
+#\b	Begin the match at a word boundary.
+#\w*	Match zero, one, or more word characters.
+#z+	Match one or more occurrences of the z character.
+#\w*	Match zero, one, or more word characters.
+#\b	End the match at a word boundary.
